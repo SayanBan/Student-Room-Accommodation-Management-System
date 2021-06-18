@@ -1,0 +1,141 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Dobro dosli u najbolji kafic na svetu">
+    <meta name="keywords" content="Kafic">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+        rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Web Tech Assignment</title>
+    <style>
+        body {
+            background-color: #303641;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">Student Accomodation System</a></h1>
+                <ul>
+                    <li><a class="current" href="index.html">Home</a></li>
+                    <li><a href="Admin.html">Admin</a></li>
+                    <li><a href="Student.html">Student</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <link rel="stylesheet" href="css/form.css">
+    <!DOCTYPE html>
+<html>
+<body>
+
+<h2>Insert</h2>
+
+<form action="Student" method="post">
+  <label for="fname">Room ID</label><br>
+  <input type="text" id="rid" name="rid"><br>
+  
+  <label for="fname">Room Type</label><br>
+  <input type="text" id="fname" name="rt"><br>
+  
+  <label for="fname">Room Location</label><br>
+  <input type="text" id="fname" name="rl"><br>
+
+  <label for="fname">Room Charge</label><br>
+  <input type="text" id="fname" name="rc"><br>
+
+  <input type="submit" value="insert" name="login">
+</form> 
+
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Dobro dosli u najbolji kafic na svetu">
+    <meta name="keywords" content="Kafic">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+        rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/form.css">
+      <link rel="stylesheet" href="css/main.css">
+    <title>Web Tech Assignment</title>
+    <style>
+        body {
+            background-color: #303641;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">Student Accomodation System</a></h1>
+                <ul>
+                    <li><a class="current" href="index.html">Home</a></li>
+                    <li><a href="Admin.html">Admin</a></li>
+                    <li><a href="Student.html">Student</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+   
+    <div class="login-box">
+        <form action="Student" method="POST">
+            <h2>Insert Room</h2>
+            <div class="user-box">
+                <input type="text" name="rid" required>
+                <label>Room ID</label>
+            </div>
+
+            <div class="user-box">
+                <input type="text" name="rt" required>
+                <label>Room Type</label>
+            </div>
+
+            <div class="user-box">
+                <input type="text" name="rl" required>
+                <label>Room Location</label>
+            </div>
+
+            <div class="user-box">
+                <input type="text" name="rc" required>
+                <label>Room Charge</label>
+            </div>
+
+            
+            <button type="submit" name="login" value="insert">
+<!--                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>-->
+                Insert
+            </button>
+                
+  
+<!--            <input type="submit" name="login" value="insert">-->
+        </form>
+    </div>
+</body>
+
+</html>

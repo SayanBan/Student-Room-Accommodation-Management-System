@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Dobro dosli u najbolji kafic na svetu">
+    <meta name="keywords" content="Kafic">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+        rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/form.css">
+      <link rel="stylesheet" href="css/main.css">
+    <title>Web Tech Assignment</title>
+    <style>
+        body {
+            background-color: #303641;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">Student Accomodation System</a></h1>
+                <ul>
+                    <li><a class="current" href="index.html">Home</a></li>
+                    <li><a href="Admin.html">Admin</a></li>
+                    <li><a href="Student.html">Student</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+   
+    <div class="login-box">
+        <form action="Student" method="POST">
+            <h2>Delete Room</h2>
+            <div class="user-box">
+                <input type="text" name="urid" required>
+                <label>Room ID</label>
+            </div>
+
+            
+            <button type="submit" name="login" value="del">
+<!--                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>-->
+                Delete
+            </button>
+                
+  
+<!--            <input type="submit" name="login" value="insert">-->
+        </form>
+    </div>
+</body>
+
+</html>

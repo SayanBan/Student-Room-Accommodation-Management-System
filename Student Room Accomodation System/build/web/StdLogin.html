@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Dobro dosli u najbolji kafic na svetu">
+    <meta name="keywords" content="Kafic">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Web Tech Assignment</title>
+</head>
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <meta name="description" content="Login - Register Template">
+        <meta name="author" content="Lorenzo Angelino aka MrLolok">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <style>
+            body {
+                background-color: #303641;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav id="navbar">
+                <div class="container">
+                    <h1 class="logo"><a href="index.html">Student Accomodation System</a></h1>
+                    <ul>
+                        <li><a class="current" href="index.html">Home</a></li>
+                        <li><a href="Admin.html">Admin</a></li>
+                        <li><a href="Student.html">Student</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+        <div id="container-login">
+            <div id="title">
+                <i class="material-icons lock">manage_accounts</i> Student Login
+            </div>
+
+            <form action="Student" method="post">
+                <div class="input">
+                    <div class="input-addon">
+                        <i class="material-icons">face</i>
+                    </div>
+                    <input name="ID" id="username" placeholder="Student ID" type="text" required class="validate"
+                        autocomplete="off">
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="input">
+                    <div class="input-addon">
+                        <i class="material-icons">vpn_key</i>
+                    </div>
+                    <input name="pwd" id="password" placeholder="Password" type="password" required class="validate"
+                        autocomplete="off">
+                </div>
+
+                <div class="remember-me">
+                    <input type="checkbox">
+                    <span style="color: #DDD">Remember Me</span>
+                </div>
+
+                 <input name="login" type="submit" value="login" />
+            </form>
+
+            <div class="forgot-password">
+                <a href="#">Forgot your password?</a>
+            </div>
+            <div class="privacy">
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="register">
+                Don't have an account yet?
+                <a href="Student.html"><button id="register-link">Register here</button></a>
+            </div>
+        </div>
+    </body>
+
+</html>
