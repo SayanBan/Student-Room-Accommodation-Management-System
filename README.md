@@ -9,4 +9,13 @@ Features -
     Room update and delete available for admin after a room has been created/posted
     Attractive yet Formal interface, exactly what needed for a business!
 
+Application used - Netbeans IDE for coding
+                 - Tomcat server for localhost
+                 
+Programming Languages used - HTML5
+                           - CSS3
+                           - Bootstrap
+                           - JSP (Java Servlet Programming) - For Backend
+
+
 Screenshots coming soon!
