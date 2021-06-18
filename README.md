@@ -22,7 +22,7 @@ Some screenshots given below, see the screenshot folder for all screenshots -
 
 # 1. Home Page
 
-![Home Page](https://user-images.githubusercontent.com/45221397/122589059-6fcb0e80-d07d-11eb-8360-6195c55daef2.PNG)
+![Home Page](https://user-images.githubusercontent.com/45221397/122589716-3e9f0e00-d07e-11eb-885d-094fb10f02e7.PNG)
 
 # 2. Admin Dashboard
 
