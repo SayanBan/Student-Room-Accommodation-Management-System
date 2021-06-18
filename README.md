@@ -18,4 +18,18 @@ Programming Languages used - HTML5
                            - JSP (Java Servlet Programming) - For Backend
 
 
-Screenshots coming soon!
+Some screenshots given below, see the screenshot folder for all screenshots -
+
+# 1. Home Page
+
+![Home Page](https://user-images.githubusercontent.com/45221397/122589059-6fcb0e80-d07d-11eb-8360-6195c55daef2.PNG)
+
+# 2. Admin Dashboard
+
+![Admin Dashboard](https://user-images.githubusercontent.com/45221397/122589004-5d50d500-d07d-11eb-9d04-0e6cef4f3fee.PNG)
+
+# 3. Student Dashboard (student already checked into a room)
+
+![Student Dashboard after checkin](https://user-images.githubusercontent.com/45221397/122589043-6b9ef100-d07d-11eb-893d-fac03b4d63ec.PNG)
+
+# Find more screenshots ![here](https://github.com/SayanBan/Student-Room-Accomodation-Management-System/tree/main/Screenshots)
