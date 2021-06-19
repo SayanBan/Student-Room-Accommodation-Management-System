@@ -16,7 +16,7 @@ Features -
 Programming Languages used - **HTML5**
                            - **CSS3**
                            - **Bootstrap**
-                           - **JSP (Java Servlet Programming) - For Backend**
+                           - **JSP (Java Servlet Programming)** - *For Backend*
 
 
 Some screenshots given below, see the screenshot folder for all screenshots -
