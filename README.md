@@ -19,9 +19,9 @@ Programming Languages used - **HTML5**
                            - **JSP (Java Servlet Programming)** - *For Backend*
 
 
-Video - 
+Video URL - 
 
-![Video](https://github.com/SayanBan/Student-Room-Accomodation-Management-System/blob/main/Screenshots/Web.mp4)
+https://github.com/SayanBan/Student-Room-Accomodation-Management-System/blob/main/Screenshots/Web.mp4
 
 Some screenshots given below, see the screenshot folder for all screenshots -
 
